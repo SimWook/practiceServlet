@@ -12,4 +12,8 @@ public class ServletPracticeApplication {
         SpringApplication.run(ServletPracticeApplication.class, args);
     }
 
+    /*@Bean
+    ViewResolver internalResourceViewResolver() {
+        return new InternalResourceViewResolver("/WEB-INF/views/", ".jsp");
+    }*/
 }
